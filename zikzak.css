@@ -1,0 +1,80 @@
+
+.image img{
+    width:100%;
+    height: 150px;
+    opacity: 3;
+    
+
+}
+
+   
+.image img  {
+    position: absolute;;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    }
+.zikzak{
+    margin-top: 150px;
+    width: 1500px;
+    height: 500px;
+    border: 2px solid rgb(5, 9, 0);
+    overflow: auto;
+    
+}
+
+ .zikzak :nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    
+ }
+.zikzak1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    
+ }
+ 
+ .zikzak1 p{
+    padding: 20px;
+    color: aqua;
+    background-color: black;
+ }
+ .zikzak2{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(175, 47, 255);
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ .zikzak2 p{
+    padding: 20px;
+    color: rgb(16, 18, 18);
+    background-color: rgb(170, 168, 168);
+ }.zikzak3{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(255, 47, 50);
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ .zikzak3 p{
+    padding: 20px;
+    color: aqua;
+    background-color: black;
+ }.zikzak4{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(252, 255, 47);
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ .zikzak4 p{
+    padding: 20px;
+    color: rgb(16, 18, 18);
+    background-color: rgb(170, 168, 168);
+ }
